@@ -1,0 +1,141 @@
+@media (max-width: 320px){
+  .custom_nav ul li a{
+    padding: 15px 20px!important;
+  }
+  .photo_intro h1 {
+    font-size: 18px!important;
+  }
+  .photo_intro h5, h1 {
+    text-align: center;
+  }
+  .life_images h1, h5 {
+    text-align: center;
+    font-size: 10px;
+  }
+  .life_images p {
+    font-size: 16px;
+  }
+ 
+  .footer_right ul li a {
+    font-size: 10px;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+  .photo_intro h1 {
+     font-size: 25px;
+  }
+  .life_images h1 {
+    font-size: 12px;
+  }
+  .life_images p {
+    font-size: 12px;
+  }
+  .style {
+  margin-top: 20px;
+  margin-bottom: -120px;
+}
+
+  .footer_left ul li a{
+    font-size: 10px;
+  }
+
+  .footer_left ul li a {
+    padding:40px 1px!important;
+    display: block;
+    color: #A0A0A0;
+  }
+  .footer_right ul li a {
+    color: #A0A0A0!important;
+  }
+  .footer_right ul li {
+      display: inline-block;
+  }
+  .footer_right ul li a i {
+    padding:40px 1px!important;
+    display: block;
+    color: #A0A0A0;
+    font-size: 10px;
+  }
+ .newsletter_form h1 {
+  font-size: 28px;
+  color:#2D2D2D;
+  padding: 20px 0px;
+}
+  .newsletter_form form input {
+  width: 250px;
+  height: 40px;
+  background:transparent;
+  border:none;
+  border-bottom: 1px solid black;
+}
+.newsletter_form form button { 
+  position: absolute;
+  border:none;
+  background:transparent;
+  right: 103px;
+  top:10px;
+ }
+}
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .life_images h1 {
+    font-size: 17px;
+  }
+
+  .footer_left ul li a {
+    padding:30px 5px!important;
+    display: block;
+    color: #A0A0A0;
+  }
+  .footer_right ul li a {
+    color: #A0A0A0!important;
+  }
+  .footer_right ul li {
+      display: inline-block;
+  }
+  .footer_right ul li a i {
+    padding:30px 14px!important;
+    display: block;
+    color: #A0A0A0;
+  }
+  
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  .life_images h1 {
+    font-size: 18px;
+  }
+  .footer_left ul li a {
+    padding:30px 5px!important;
+    display: block;
+    color: #A0A0A0;
+  }
+  .footer_right ul li a {
+    color: #A0A0A0!important;
+  }
+  .footer_right ul li {
+      display: inline-block;
+  }
+  .footer_right ul li a i {
+    padding:30px 20px!important;
+    display: block;
+    color: #A0A0A0;
+  }
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   .life_images h1 {
+    font-size: 27px;
+   }
+   
+ }
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+ }
